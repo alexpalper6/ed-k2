@@ -3,3 +3,20 @@ body{
     width: 70;
     margin: 0 auto;
 }
+
+nav {
+    height: 100px;display: flex;
+}
+nav img {
+    flex-basis: auto;
+}
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;display: flex;
+}
+nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+}
